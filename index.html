@@ -29,14 +29,12 @@
             object-fit: cover;
             z-index: -1;
         }
-
-        
     </style>
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video autoplay muted loop preload="metadata">
+        <source src="video.webm?v=1.0" type="video/webm">
+        <source src="video.mp4?v=1.0" type="video/mp4">
     </video>
     <h1>Astro Crafters</h1>
 </body>
